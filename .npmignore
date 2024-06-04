@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+functions/
+scripts/
+index.ts
+pnpm-lock.yaml
+tsconfig.json
+__tests__
+vitest*
+vite*
+CHANGELOG.md
+.**

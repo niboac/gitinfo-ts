@@ -1,0 +1,7 @@
+node_modules
+.DS_STORE
+dist
+.changeset/
+coverage
+
+*/__snapshots__/

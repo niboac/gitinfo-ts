@@ -1,0 +1,20 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "moduleResolution": "Bundler",
+    "outDir": "dist",
+    "target": "ES2022",
+    "types": [
+      "node"
+    ],
+  },
+  "include": [
+    "src/index.ts",
+    "src/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
