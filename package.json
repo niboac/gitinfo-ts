@@ -33,7 +33,10 @@
     "test": "vitest --dom",
     "coverage": "vitest run --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "git",
+    "gitinfo"
+  ],
   "author": "niboac@sohu.com",
   "license": "MIT",
   "simple-git-hooks": {
