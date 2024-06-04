@@ -1,7 +1,7 @@
 {
   "name": "gitinfo-ts",
   "description": "get git information",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -27,8 +27,8 @@
     "build": "rimraf dist && npx rollup -c && tsc --emitDeclarationOnly",
     "clear": "rimraf dist && rimraf node_modules",
     "type-check": "tsc --noEmit",
-    "lint": "eslint ./functions/**/*.ts",
-    "lint:fix": "eslint ./functions/**/*.{ts,js} --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "pub": "pnpm lint:fix && pnpm build && npm publish",
     "test": "vitest --dom",
     "coverage": "vitest run --coverage"
