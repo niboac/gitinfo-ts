@@ -25,7 +25,6 @@
   },
   "scripts": {
     "build": "rimraf dist && npx rollup -c && tsc --emitDeclarationOnly",
-    "emit-types": "tsc --emitDeclarationOnly",
     "clear": "rimraf dist && rimraf node_modules",
     "type-check": "tsc --noEmit",
     "lint": "eslint ./functions/**/*.ts",
